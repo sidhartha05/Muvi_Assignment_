@@ -84,6 +84,9 @@ public class BaseTest1 implements AutoConstant {
 		return(str+"@"+ num);
 	}
 	
+	
+	
 }
+
 
 
