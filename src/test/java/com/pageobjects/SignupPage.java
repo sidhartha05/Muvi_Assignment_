@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.generics.BasePage;
+import com.mailosaur.models.Code;
 
 public class SignupPage extends BasePage {
 
@@ -33,6 +34,12 @@ public class SignupPage extends BasePage {
 	
 	@FindBy(xpath = "//button[@id='nextbtn']")
 	private WebElement nextbtn;
+	
+	@FindBy(xpath = "//input[@placeholder='Enter OTP']")
+	private WebElement enterotp;
+	
+	@FindBy(xpath = "//button[@id='btn_otp']")
+	private WebElement validateotp;
 
 	public SignupPage(WebDriver driver) {
 
@@ -81,6 +88,17 @@ public class SignupPage extends BasePage {
 		javascriptClick(driver, nextbtn);
 		
 	}
-
-	
+	public void enterOtp(String otp) {
+		enterotp.sendKeys(otp);
+		
+	}
+	public void clickOnvalidateotp() {
+		
+		clickOnElement(driver, validateotp);
+	}
+	public String validateSignupTitle() {
+		
+		String title = driver.getTitle();
+		return title;
+	}
 }

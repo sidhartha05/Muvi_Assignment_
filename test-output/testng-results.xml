@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[suite level execution started]]>
+    </line>
     <line>
       <![CDATA[suite level execution started]]>
     </line>
     <line>
       <![CDATA[testlevel execution]]>
     </line>
+    <line>
+      <![CDATA[testlevel execution]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-02-29T13:47:50 IST" name="Suite" finished-at="2024-02-29T13:49:32 IST" duration-ms="101635">
+  <suite started-at="2024-03-03T12:27:52 IST" name="Suite" finished-at="2024-03-03T12:30:02 IST" duration-ms="130424">
     <groups>
     </groups>
-    <test started-at="2024-02-29T13:47:50 IST" name="Test" finished-at="2024-02-29T13:49:32 IST" duration-ms="101635">
+    <test started-at="2024-03-03T12:27:52 IST" name="Test" finished-at="2024-03-03T12:30:02 IST" duration-ms="130424">
       <class name="com.testcases.TC_001_ContentValidation">
-        <test-method is-config="true" signature="suitLevelExecutionStarted()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:47:50 IST" name="suitLevelExecutionStarted" finished-at="2024-02-29T13:47:50 IST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="suitLevelExecutionStarted()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:27:52 IST" name="suitLevelExecutionStarted" finished-at="2024-03-03T12:27:52 IST" duration-ms="36" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[suite level execution started]]>
             </line>
           </reporter-output>
         </test-method> <!-- suitLevelExecutionStarted -->
-        <test-method is-config="true" signature="testLevelExecutionStarted()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:47:51 IST" name="testLevelExecutionStarted" finished-at="2024-02-29T13:47:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testLevelExecutionStarted()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:27:53 IST" name="testLevelExecutionStarted" finished-at="2024-03-03T12:27:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testlevel execution]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLevelExecutionStarted -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:47:51 IST" name="setup" finished-at="2024-02-29T13:48:04 IST" duration-ms="12839" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:28:29 IST" name="setup" finished-at="2024-03-03T12:28:39 IST" duration-ms="10069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginpageTest()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:48:04 IST" name="loginpageTest" finished-at="2024-02-29T13:48:12 IST" duration-ms="7675" status="PASS">
+        <test-method signature="loginpageTest()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:28:39 IST" name="loginpageTest" finished-at="2024-03-03T12:28:47 IST" duration-ms="8131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageTest -->
-        <test-method signature="clickOnContentMangementTest()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:48:12 IST" name="clickOnContentMangementTest" finished-at="2024-02-29T13:48:36 IST" depends-on-methods="com.testcases.TC_001_ContentValidation.loginpageTest" duration-ms="23844" status="PASS">
+        <test-method signature="clickOnContentMangementTest()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:28:47 IST" name="clickOnContentMangementTest" finished-at="2024-03-03T12:29:08 IST" depends-on-methods="com.testcases.TC_001_ContentValidation.loginpageTest" duration-ms="21177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContentMangementTest -->
-        <test-method signature="addContentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:48:38 IST" name="addContentTest" data-provider="logindata" finished-at="2024-02-29T13:49:32 IST" depends-on-methods="com.testcases.TC_001_ContentValidation.clickOnContentMangementTest" duration-ms="53728" status="PASS">
+        <test-method signature="addContentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:29:11 IST" name="addContentTest" data-provider="logindata" finished-at="2024-03-03T12:30:02 IST" depends-on-methods="com.testcases.TC_001_ContentValidation.clickOnContentMangementTest" duration-ms="50551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,11 +71,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addContentTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_001_ContentValidation@2892d68]" started-at="2024-02-29T13:49:32 IST" name="teardown" finished-at="2024-02-29T13:49:32 IST" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_001_ContentValidation@27406a17]" started-at="2024-03-03T12:30:02 IST" name="teardown" finished-at="2024-03-03T12:30:02 IST" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testcases.TC_001_ContentValidation -->
+      <class name="com.testcases.TC_002_ValidateOtp">
+        <test-method is-config="true" signature="suitLevelExecutionStarted()[pri:0, instance:com.testcases.TC_002_ValidateOtp@2eae8e6e]" started-at="2024-03-03T12:27:52 IST" name="suitLevelExecutionStarted" finished-at="2024-03-03T12:27:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[suite level execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suitLevelExecutionStarted -->
+        <test-method is-config="true" signature="testLevelExecutionStarted()[pri:0, instance:com.testcases.TC_002_ValidateOtp@2eae8e6e]" started-at="2024-03-03T12:27:53 IST" name="testLevelExecutionStarted" finished-at="2024-03-03T12:27:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testlevel execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLevelExecutionStarted -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.TC_002_ValidateOtp@2eae8e6e]" started-at="2024-03-03T12:27:53 IST" name="setup" finished-at="2024-03-03T12:28:08 IST" duration-ms="15657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateOtp()[pri:0, instance:com.testcases.TC_002_ValidateOtp@2eae8e6e]" started-at="2024-03-03T12:28:08 IST" name="validateOtp" finished-at="2024-03-03T12:28:29 IST" duration-ms="20437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOtp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_002_ValidateOtp@2eae8e6e]" started-at="2024-03-03T12:28:29 IST" name="teardown" finished-at="2024-03-03T12:28:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.TC_002_ValidateOtp -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,38 @@
+22:11:32.667 [main] INFO  com.testcases.TC_002_ValidateOtp - Landing page url validated successfully
+22:11:36.120 [main] INFO  com.testcases.TC_002_ValidateOtp - Clicked on Landing page Free Trial Successfully
+22:11:36.141 [main] INFO  com.testcases.TC_002_ValidateOtp - Product page url validated successfully
+22:11:41.793 [main] INFO  com.testcases.TC_002_ValidateOtp - Clicked on product page Free Trail successfully
+22:11:41.816 [main] INFO  com.testcases.TC_002_ValidateOtp - Signup page Title validated successfully
+22:11:44.314 [main] INFO  com.testcases.TC_002_ValidateOtp - Entered all the details in Signup page successfully
+22:11:52.164 [main] INFO  com.testcases.TC_002_ValidateOtp - Entered OTP Successfully
+22:11:52.485 [main] INFO  com.testcases.TC_002_ValidateOtp - OTP validated successfully
+22:12:05.465 [main] INFO  com.testcases.TC_001_ContentValidation - Login page validate succesfully
+22:12:13.958 [main] INFO  com.testcases.TC_001_ContentValidation - email id and password entered
+22:12:14.129 [main] INFO  com.testcases.TC_001_ContentValidation - click on login button
+22:12:35.594 [main] INFO  com.testcases.TC_001_ContentValidation - Account succesfully validated
+22:12:35.733 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on contentmanagement button
+22:12:35.882 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on contentlibrary button
+22:12:37.878 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on add content button
+22:12:38.416 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:12:38.426 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:13:29.200 [main] INFO  com.testcases.TC_001_ContentValidation - Clicked on save and publish button
+22:13:33.154 [main] INFO  com.testcases.TC_001_ContentValidation - contentlist validated succesfully
+12:28:09.092 [main] INFO  com.testcases.TC_002_ValidateOtp - Landing page url validated successfully
+12:28:12.575 [main] INFO  com.testcases.TC_002_ValidateOtp - Clicked on Landing page Free Trial Successfully
+12:28:12.595 [main] INFO  com.testcases.TC_002_ValidateOtp - Product page url validated successfully
+12:28:17.585 [main] INFO  com.testcases.TC_002_ValidateOtp - Clicked on product page Free Trail successfully
+12:28:17.609 [main] INFO  com.testcases.TC_002_ValidateOtp - Signup page Title validated successfully
+12:28:20.820 [main] INFO  com.testcases.TC_002_ValidateOtp - Entered all the details in Signup page successfully
+12:28:29.113 [main] INFO  com.testcases.TC_002_ValidateOtp - Entered OTP Successfully
+12:28:29.399 [main] INFO  com.testcases.TC_002_ValidateOtp - OTP validated successfully
+12:28:39.546 [main] INFO  com.testcases.TC_001_ContentValidation - Login page validate succesfully
+12:28:47.273 [main] INFO  com.testcases.TC_001_ContentValidation - email id and password entered
+12:28:47.649 [main] INFO  com.testcases.TC_001_ContentValidation - click on login button
+12:29:05.981 [main] INFO  com.testcases.TC_001_ContentValidation - Account succesfully validated
+12:29:06.110 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on contentmanagement button
+12:29:06.401 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on contentlibrary button
+12:29:08.852 [main] INFO  com.testcases.TC_001_ContentValidation - clicked on add content button
+12:29:10.133 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:29:10.142 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:29:58.280 [main] INFO  com.testcases.TC_001_ContentValidation - Clicked on save and publish button
+12:30:02.366 [main] INFO  com.testcases.TC_001_ContentValidation - contentlist validated succesfully

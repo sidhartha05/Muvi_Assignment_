@@ -61,6 +61,18 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
+<dependency>
+    <groupId>com.mailosaur</groupId>
+    <artifactId>mailosaur-java</artifactId>
+    <version>7.13.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.13.1</version>
+</dependency>
+ 
    
 
   </dependencies>

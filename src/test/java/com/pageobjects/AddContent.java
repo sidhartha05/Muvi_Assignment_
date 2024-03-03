@@ -192,11 +192,15 @@ public class AddContent extends BasePage {
 		Thread.sleep(3000);
 		for(int i=0;i<contentlist.size();i++)
 		{
-			if(contentlist.get(i).getText().equalsIgnoreCase("My 1st Content"))
+			if(contentlist.get(i).getText().equalsIgnoreCase("My 1st Contentf"))
 			{
 				javascriptClick(driver, dropdown);
 				javascriptClick(driver, logout);
 			}
+			
+//			Assert.assertEquals(contentlist.get(i).getText(), "My 1st Content");
+//			javascriptClick(driver, dropdown);
+//		    javascriptClick(driver, logout);
 		}
 	}
 }

@@ -3,7 +3,10 @@ package com.generics;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -14,10 +17,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-public class BaseTest extends Excelllibrary implements AutoConstant{
+
+public class BaseTest1 implements AutoConstant {
+	
 	
 	public static WebDriver driver;
-	public Properties prop;
+	public static Properties prop;
 	public Logger logger;
 	
 	@BeforeSuite
@@ -50,7 +55,7 @@ public class BaseTest extends Excelllibrary implements AutoConstant{
 		
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.get(prop.getProperty("url"));
+			driver.get(prop.getProperty("url1"));
 		
 		
 	}
@@ -58,6 +63,27 @@ public class BaseTest extends Excelllibrary implements AutoConstant{
 	@AfterClass
 	public void teardown()
 	{
-	driver.close();
+	
 	}
+	public static String randomString() {
+
+		String generatedString = RandomStringUtils.randomAlphabetic(5);
+		return generatedString;
+	}
+
+	public String randomNumber() {
+
+		String generatednumber = RandomStringUtils.randomNumeric(10);
+		return generatednumber;
+	}
+
+	public String randomAlphanumeric() {
+
+		String str = RandomStringUtils.randomAlphabetic(4);
+		String num=RandomStringUtils.randomNumeric(4);
+		return(str+"@"+ num);
+	}
+	
 }
+
+

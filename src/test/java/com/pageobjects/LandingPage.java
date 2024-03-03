@@ -6,26 +6,26 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.generics.BasePage;
 
-public class ProductPage extends BasePage{
+public class LandingPage extends BasePage {
 
 	public WebDriver driver;
+	
+	@FindBy(xpath = "//a[normalize-space()='free trial']")
+	private WebElement freetrial;
 
-	@FindBy(xpath = "//a[@href='https://www.muvi.com/one/signup']")
-	private WebElement signup;
-
-	public ProductPage(WebDriver driver) {
+	public LandingPage(WebDriver driver) {
 
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public void clickOnMuviFreeTrial() {
+	public void clickOnFreeTrial() {
 
-		waitVisibilityofElement(driver, signup);
-		javascriptClick(driver, signup);
-
+		waitVisibilityofElement(driver, freetrial);
+		javascriptClick(driver, freetrial);
 	}
-	public String validateProductpageurl() {
+	
+	public String validateCurrenturl() {
 		
 		String url = driver.getCurrentUrl();
 		return url;

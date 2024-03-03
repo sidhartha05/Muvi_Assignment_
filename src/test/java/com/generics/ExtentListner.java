@@ -63,7 +63,7 @@ public class ExtentListner implements ITestListener {
 		if(screenshotfile.exists()) {
 		test.addScreenCaptureFromPath(screenshot_path);
 		}
-	   
+	     
 	  }
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Name of the passed method "+ result.getName());
